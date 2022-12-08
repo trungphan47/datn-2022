@@ -46,8 +46,8 @@ public class C030_user_can_filter_tickets_by_choosing_all_filter_items_with_inco
         myTicketPage.clickApplyFilterButton();
 
         logStep = TestReporter.logStepInfo(logMethod, "Bước #7: Xác minh rằng những vé đúng điều kiện được hiển thị");
-        Assertion.verifyActualAndExpected(logStep, myTicketPage.getDepartStation(), data.get("DepartStation1"));
-        Assertion.verifyActualAndExpected(logStep, myTicketPage.getArriveStation(), data.get("ArriveStation1"));
+        Assertion.verifyActualAndExpected(logStep, myTicketPage.getDepartStation(), data.get("DepartStationFilter"));
+        Assertion.verifyActualAndExpected(logStep, myTicketPage.getArriveStation(), data.get("ArriveStationFilter"));
         Assertion.verifyActualAndExpected(logStep, myTicketPage.getDepartDate(), departDate);
         Assertion.verifyActualAndExpected(logStep, myTicketPage.getSeatType(), data.get("SeatType"));
         Assertion.verifyActualAndExpected(logStep, myTicketPage.getAmount(), data.get("TicketAmount"));
