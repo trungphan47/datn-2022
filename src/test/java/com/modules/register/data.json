@@ -1,0 +1,159 @@
+{
+  "C002_RegisterSuccess": [
+    {
+      "Data": "Data1",
+      "Password": "Test123456",
+      "ConfirmPassword": "Test123456",
+      "PID": "0387364845",
+      "SuccessMessage": "You're here"
+    }
+  ],
+  "C003_Register_Failed_without_userName": [
+    {
+      "Data": "Data1",
+      "UserName": "",
+      "Password": "Test123456",
+      "ConfirmPassword": "Test123456",
+      "PID": "0232435677",
+      "Message1": "Invalid email length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    }
+  ],
+  "C004_Register_Failed_without_password": [
+    {
+      "Data": "Data1",
+      "Password": "",
+      "ConfirmPassword": "",
+      "PID": "0232435677",
+      "Message1": "Invalid password length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    }
+  ],
+  "C005_Register_Failed_without_confirm_password": [
+    {
+      "Data": "Data1",
+      "Password": "Test123456",
+      "ConfirmPassword": "",
+      "PID": "0232435677",
+      "Message1": "The two passwords do not match",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    }
+  ],
+  "C006_Register_Failed_with_wrong_format_userName": [
+    {
+      "Data": "Data1 - Không đúng định dạng của email",
+      "UserName": "Trung1@123",
+      "Password": "Test123456",
+      "ConfirmPassword": "Test123456",
+      "PID": "0387364845",
+      "Message1": "Invalid email address",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    },
+    {
+      "Data": "Data2 - Chứa nhiều hơn 64 ký tự",
+      "UserName": "abcdefghijabcde12345abcde12345abcde12345abcde12345abcde12345abcde",
+      "Password": "Test123456",
+      "ConfirmPassword": "Test123456",
+      "PID": "0387364845",
+      "Message1": "Invalid email length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    },
+    {
+      "Data": "Data3 - Chứa ít hơn 6 ký tự",
+      "UserName": "a@1.c",
+      "Password": "Test123456",
+      "ConfirmPassword": "Test123456",
+      "PID": "0387364845",
+      "Message1": "Invalid email length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    }
+  ],
+  "C007_Register_Failed_wrong_format_password": [
+    {
+      "Data": "Data1 - Chứa ít hơn 8 ký tự",
+      "Password": "Testt",
+      "ConfirmPassword": "Testt",
+      "PID": "0387364845",
+      "Message1": "Invalid password length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    },
+    {
+      "Data": "Data2 - Chứa ít hơn 8 ký tự",
+      "Password": "Test123",
+      "ConfirmPassword": "Test123",
+      "PID": "0387364845",
+      "Message1": "Invalid password length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    },
+    {
+      "Data": "Data3 - Chứa nhiều hơn 64 ký tự",
+      "Password": "abcde12345abcde12345abcde12345abcde12345abcde12345abcde12345abcde",
+      "ConfirmPassword": "abcde12345abcde12345abcde12345abcde12345abcde12345abcde12345abcde",
+      "PID": "0387364845",
+      "Message1": "Invalid password length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    },
+    {
+      "Data": "Data4 - Chứa nhiều hơn 64 ký tự",
+      "Password": "abcde12345abcde12345abcde12345abcde12345abcde12345abcde12345abcde12345",
+      "ConfirmPassword": "abcde12345abcde12345abcde12345abcde12345abcde12345abcde12345abcde12345",
+      "PID": "0387364845",
+      "Message1": "Invalid password length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    }
+  ],
+  "C008_Register_Failed_Confirm_password_different_from_password": [
+    {
+      "Data": "Data1",
+      "Password": "Test123456",
+      "ConfirmPassword": "test123456",
+      "PID": "0387364845",
+      "Message1": "The two passwords do not match",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    }
+  ],
+  "C009_Register_Failed_with_wrong_format_PID": [
+    {
+      "Data": "Data1 - Chứa ít hơn 8 ký tự",
+      "Password": "Testt1234",
+      "ConfirmPassword": "Testt1234",
+      "PID": "03873",
+      "Message1": "Invalid ID length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    },
+    {
+      "Data": "Data2 - Chứa ít hơn 8 ký tự",
+      "Password": "Test1234",
+      "ConfirmPassword": "Test1234",
+      "PID": "0387364",
+      "Message1": "Invalid ID length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    },
+    {
+      "Data": "Data3 - Chứa nhiều hơn 20 ký tự",
+      "Password": "Test1234",
+      "ConfirmPassword": "Test1234",
+      "PID": "038736484503873648451",
+      "Message1": "Invalid ID length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    },
+    {
+      "Data": "Data4 - Chứa nhiều hơn 20 ký tự",
+      "Password": "Test1234",
+      "ConfirmPassword": "Test1234",
+      "PID": "038736484503873648451123",
+      "Message1": "Invalid ID length",
+      "Message2": "There're errors in the form. Please correct the errors and try again."
+    }
+  ],
+  "C010_Resgiter_failed_with_email_is_already_in_use": [
+    {
+      "Data": "Data1",
+      "UserName": "phantrung123@gmail.com",
+      "Password": "Test123456",
+      "ConfirmPassword": "Test123456",
+      "PID": "0387364845",
+      "Message": "This email address is already in use."
+    }
+  ]
+}

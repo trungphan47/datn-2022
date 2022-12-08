@@ -1,0 +1,127 @@
+{
+  "C023_Open_My_Ticket_tab": [
+    {
+      "Data": "1",
+      "Title": "Manage Tickets"
+    }
+  ],
+  "C024_User_can_cancel_tickets": [
+    {
+      "Data": "Data1",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1"
+    }
+  ],
+  "C025_Filter_bar_display_if_a_table_in_My_Ticket_page_has_more_than_5_rows": [
+    {
+      "Data": "Data1",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "Times": "6"
+    }
+  ],
+  "C026_User_can_filter_tickets_by_choosing_Status": [
+    {
+      "Data": "Data1",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "Times": "6",
+      "Status": "New"
+    },
+    {
+      "Data": "Data2",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "Times": "6",
+      "Status": "Paid"
+    },
+    {
+      "Data": "Data3",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "Times": "6",
+      "Status": "Expired"
+    }
+  ],
+  "C027_User_can_filter_tickets_by_entering_incorrect_Depart_Date_format": [
+    {
+      "Data": "Data1",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "Times": "6"
+    }
+  ],
+  "C028_User_can_filter_tickets_by_choosing_Arrive_Station": [
+    {
+      "Data": "Data1",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "Times": "6",
+      "ArriveStationFilter": "Huế"
+    },
+    {
+      "Data": "Data2",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "Times": "6",
+      "ArriveStationFilter": "Đà Nẵng"
+    }
+  ],
+  "C029_User_can_filter_tickets_by_choosing_Depart_Station": [
+    {
+      "Data": "Data1",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "Times": "6",
+      "DepartStationFilter": "Sài Gòn"
+    },
+    {
+      "Data": "Data2",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "Times": "6",
+      "DepartStationFilter": "Đà Nẵng"
+    }
+  ],
+  "C030_user_can_filter_tickets_by_choosing_all_filter_items_with_incorrect_Depart_date_format": [
+    {
+      "Data": "Data1",
+      "DepartStation1": "Sài Gòn",
+      "ArriveStation1": "Huế",
+      "DepartStation2": "Sài Gòn",
+      "ArriveStation2": "Nha Trang",
+      "DepartStation3": "Sài Gòn",
+      "ArriveStation3": "Đà Nẵng",
+      "DepartStation4": "Sài Gòn",
+      "ArriveStation4": "Phan Thiết",
+      "DepartStation5": "Sài Gòn",
+      "ArriveStation5": "Quảng Ngãi",
+      "DepartStation6": "Huế",
+      "ArriveStation6": "Sài Gòn",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "DepartStationFilter": "Sài Gòn",
+      "ArriveStationFilter": "Huế"
+    }
+  ]
+}

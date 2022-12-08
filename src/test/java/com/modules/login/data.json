@@ -1,0 +1,77 @@
+{
+  "C012_Login_success": [
+    {
+      "Data": "Data1",
+      "Username": "phantrung123@gmail.com",
+      "Password": "12341234"
+    }
+  ],
+  "C013_Login_fail_without_username": [
+    {
+      "Data": "Data1",
+      "Username": "",
+      "Password": "12345678",
+      "Message1": "There was a problem with your login and/or errors exist in your form.",
+      "Message2": "You must specify a username."
+    }
+  ],
+  "C014_Login_fail_without_password": [
+    {
+      "Data": "Data1",
+      "Username": "NguyenVanA",
+      "Password": "",
+      "Message1": "There was a problem with your login and/or errors exist in your form.",
+      "Message2": "You must specify a password."
+    }
+  ],
+  "C015_Login_fail_with_wrong_format_of_username": [
+    {
+      "Data": "Data1 - Chứa kí tự đặc biệt",
+      "Username": "@trung1@",
+      "Password": "12345678",
+      "Message": "Invalid username or password. Please try again."
+    },
+    {
+      "Data": "Data2 - Chứa nhiều hơn 64 ký tự",
+      "Username": "qưertyuiopasdfghjklzxcvbnm1234567890_-qưertyuiopasdfghjklzxcvbnm1",
+      "Password": "12345678",
+      "Message": "Invalid username or password. Please try again."
+    },
+    {
+      "Data": "Data3 - Chứa ít hơn 6 ký tự",
+      "Username": "trung",
+      "Password": "12345678",
+      "Message": "Invalid username or password. Please try again."
+    }
+  ],
+  "C016_Login_fail_with_wrong_format_of_password": [
+    {
+      "Data": "Data1 - Chứa ít hơn 8 ký tự",
+      "Username": "NguyenVanA",
+      "Password": "12345",
+      "Message": "Invalid username or password. Please try again."
+    },
+    {
+      "Data": "Data2 - Chứa nhiều hơn 64 ký tự",
+      "Username": "NguyenVanA",
+      "Password": "qwertyuiopasdfghjklzxcvbnm1234567890qwertyuiopasdfghjklzxcvbnm112",
+      "Message": "Invalid username or password. Please try again."
+    }
+  ],
+  "C017_Login_fail_with_username_not_exist": [
+    {
+      "Data": "Data1",
+      "Username": "XXXXXXXX",
+      "Password": "12345678",
+      "Message": "Invalid username or password. Please try again."
+    }
+  ],
+  "C018_Login_fail_with_wrong_password": [
+    {
+      "Data": "Data1",
+      "Username": "phantrung123@gmail.com",
+      "Password": "123456789",
+      "Message": "Invalid username or password. Please try again."
+    }
+  ]
+}

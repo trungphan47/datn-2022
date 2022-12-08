@@ -1,0 +1,42 @@
+{
+  "C019_Open_bookTicket_page": [
+    {
+      "Data": "Data1",
+      "Title": "Book ticket"
+    }
+  ],
+  "C020_User_can_book_ticket": [
+    {
+      "Data": "Data1",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "BookTicketSuccessTitle": "Ticket Booked Successfully!"
+    }
+  ],
+  "C021_User_can_not_book_11th_ticket_onwards": [
+    {
+      "Data": "Data1",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount1": "1",
+      "TicketAmount2": "10",
+      "TicketsCanBePurchased": "9",
+      "BookTicketSuccessTitle": "Ticket Booked Successfully!",
+      "ErrorMessage": "You have booked 1 ticket(s). You can only book 9 more."
+    }
+  ],
+  "C022_User_can_book_ticket_multiple_time": [
+    {
+      "Data": "Data1",
+      "DepartStation": "Sài Gòn",
+      "ArriveStation": "Huế",
+      "SeatType": "Soft seat",
+      "TicketAmount": "1",
+      "BookTicketSuccessTitle": "Ticket Booked Successfully!",
+      "Times": "6"
+    }
+  ]
+}
